@@ -1,0 +1,31 @@
+# .NET build outputs
+[Bb]in/
+[Oo]bj/
+[Aa]rtifacts/
+publish/
+TestResults/
+coverage/
+coverage.*
+*.opencover.xml
+*.trx
+*.coverage
+*.coveragexml
+
+# IDE and local tooling
+.vs/
+.idea/
+*.user
+*.suo
+*.cache
+
+# Local databases and logs
+*.mdf
+*.ldf
+*.sqlite
+*.db
+logs/
+appsettings.*.json
+Properties
+appsettings.json
+*.http
+*.csproj

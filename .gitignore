@@ -1,0 +1,17 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and OS files
+.vs/
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.user
+*.suo
+.DS_Store
+Thumbs.db
+.dockerignore
+compose.yaml
+.env.example
