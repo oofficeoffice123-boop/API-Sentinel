@@ -1,0 +1,2 @@
+export type Metric = {label:string; value:number|string; note:string}
+export default function StatGrid({items}:{items:Metric[]}) { return <section className="stats">{items.map(x=><article key={x.label}><span>{x.label}</span><strong>{x.value}</strong><small>{x.note}</small></article>)}</section> }
