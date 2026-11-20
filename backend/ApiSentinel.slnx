@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="ApiSentinel.Api/ApiSentinel.Api.csproj" />
+  <Project Path="ApiSentinel.Tests/ApiSentinel.Tests.csproj" />
+  <Project Path="ApiTestingLaboratory/ApiTestingLaboratory.csproj" />
+</Solution>

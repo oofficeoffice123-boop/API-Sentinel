@@ -1,0 +1,7 @@
+{$DOMAIN} {
+    encode zstd gzip
+
+    @api path /api/* /swagger* /hangfire*
+    reverse_proxy @api api:8080
+    reverse_proxy web:80
+}
